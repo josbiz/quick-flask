@@ -1,0 +1,8 @@
+include LICENCE
+include INSTALL
+include README.md
+include requirements.txt
+graft quick_flask
+global-exclude *.pyc
+global-exclude *.py[co]
+global-exclude __pycache__
